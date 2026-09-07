@@ -16,7 +16,7 @@ menu = """
 fly       - take off and explore the skies
 collect   - search for energy crystals
 dodge     - practice avoiding obstacles
-status    - check your ship's status
+status    - check Plane's status
 lopeta    - quit the game
 """
 
