@@ -1,3 +1,4 @@
+
 name = input("What is your name? ")
 age = input("What is your age? ")
 age = int(age)
@@ -42,3 +43,30 @@ while command != "lopeta":
 
     if command != "lopeta":
         print(menu)
+
+crystals = []
+crystal_types = ["Aurelium", "Voidglass", "Pulse", "Nebulite"]
+
+
+def fly():
+    print("You take off into the neon-lit sky above Nova City.")
+
+
+def collect():
+    print(f"Possible crystals: {', '.join(crystal_types)}")
+    crystal_name = input("What did you find? ")
+    crystals.append(crystal_name)
+    print(f"{crystal_name} was added to your cargo hold.")
+
+
+def dodge():
+    print("An asteroid whizzes by - nice reflexes, pilot!")
+
+
+def status():
+    if crystals == []:
+        print("Your cargo hold is empty.")
+    else:
+        print("Crystals collected so far:")
+        for crystal in crystals:
+            print(f"- {crystal}")
