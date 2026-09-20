@@ -1,6 +1,4 @@
-SkyNova
-Dipesh Yogi
-Project structure
+About (SkyNova)
 The game is split into separate modules, each containing one class or the main program
 logic:
 Main.py - runs the game: sets up the world (rooms and items), asks for the player's 
