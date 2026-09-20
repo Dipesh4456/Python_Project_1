@@ -1,4 +1,8 @@
+import Player
+import Room
+import Item
 
+# --- Ask for the player's name and age ---
 name = input("What is your name? ")
 age = input("What is your age? ")
 age = int(age)
@@ -22,7 +26,7 @@ lopeta    - quit the game
 """
 
 print(menu)
-
+# --- Set up the game world ---
 command = ""
 
 while command != "lopeta":
@@ -70,3 +74,32 @@ def status():
         print("Crystals collected so far:")
         for crystal in crystals:
             print(f"- {crystal}")
+
+# SkyNova - Main Menu (object-oriented version)
+
+def show_status(player):
+    print(f"Current sector: {player.location.name}")
+    if player.items == []:
+        print("Cargo hold is empty.")
+    else:
+        print("Crystals collected so far:")
+        for item in player.items:
+            print(f"- {item.name} ({item.weight} kg)")
+
+
+def show_menu(rooms):
+    print("\n--- SkyNova Main Menu ---")
+    print("move      - fly to a different sector")
+    print("collect   - collect the crystal in this sector (if any)")
+    print("status    - check your ship's cargo and location")
+    print("lopeta    - quit the game")
+    print("Sectors:", ", ".join(room.name for room in rooms))
+
+
+def choose_room(rooms):
+    destination_name = input("Which sector do you want to fly to? ")
+    for room in rooms:
+        if room.name.lower() == destination_name.lower():
+            return room
+    print("Unknown sector.")
+    return None
