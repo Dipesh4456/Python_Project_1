@@ -1,0 +1,11 @@
+HOW TO PLAY
+-----------
+move      Fly to a different sector (you will be asked for its name)
+collect   Collect the crystal in your current sector (if there is one)
+status    Show your current sector and the crystals in your cargo hold
+save      Save your progress
+help      Show these instructions again
+lopeta    Save and quit the game
+
+Your progress is saved under your pilot name. Next time you start
+the game, enter the same name to continue where you left off.
