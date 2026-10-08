@@ -1,11 +1,28 @@
 HOW TO PLAY
 -----------
-move      Fly to a different sector (you will be asked for its name)
-collect   Collect the crystal in your current sector (if there is one)
-status    Show your current sector and the crystals in your cargo hold
+GOAL: Collect all 5 clean energy cores hidden in the 10 cities:
+Helios, Aqua, Flora, Terra and Zephyr.
+The cores and the fuel stations are in different cities.
+
+YOU LOSE if your ship health reaches 0, or if you try to fly
+without enough fuel when you are not in a station city.
+
+COMMANDS
+travel    Fly to a connected city (uses fuel, may cause danger)
+          Shortcut: just type the city name, e.g. 'Wind Plains',
+          or 'travel Wind Plains'
+collect   Collect the core in your current city
+status    Show health, fuel, cores and cargo weight
+look      Show the city and its flight routes
+refuel    Fill your tank (only in cities with a station)
+repair    Repair your ship, +30 health (only in cities with a station)
 save      Save your progress
 help      Show these instructions again
 lopeta    Save and quit the game
 
-Your progress is saved under your pilot name. Next time you start
-the game, enter the same name to continue where you left off.
+TIPS
+- Only 4 cities are marked [STATION].
+  Plan your trip around them.
+- Heavy cargo makes every flight cost more fuel.
+- Dangerous routes (HIGH) are risky: air shooters, lightning, tornadoes.
+- Enter the same name next time to continue a saved game.

@@ -1,8 +1,19 @@
 === SKYNOVA ===
 
-Nova City glows beneath you as your ship's engines hum to life.
-Out in the neon-lit skies, energy crystals drift between the sectors,
-and every pilot who finds them becomes a legend.
+The world's cities are running out of power. The old energy grid has
+failed, and only clean energy can restart it.
 
-Fly through the sectors, collect the crystals and fill your cargo hold.
-Good luck, pilot!
+Five clean energy cores - Helios (sun), Aqua (water), Flora (plants),
+Terra (earth) and Zephyr (wind) - are hidden in different cities of
+the sky. Their places change every time you play!
+
+Choose your starting city, fly between the cities and collect all five
+cores. But beware: air shooters, lightning and tornadoes damage your
+ship, heavy cargo burns more fuel, and only a few cities have a
+station where you can refuel and repair. The stations move too!
+
+Collect all five cores and the world's power is restored.
+Lose all your health, or run out of fuel away from a station, and you lose.
+
+This game is about Sustainable Development Goal :
+Affordable and Clean Energy for everyone.
